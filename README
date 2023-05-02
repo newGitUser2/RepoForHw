@@ -1,0 +1,9 @@
+The project is written in the C++ programming language. This applies to the "doubly linked list". It consists of several files, each of which should have a value different from the others. Below is a summary of each file separately:
+
+file "node.cpp" - The class(Node<T>) created in this file is the basis of the program. A template class is created that allows you to work with different types as the value of a sheet element. The class constructors are also specified in the file.
+
+file "list.hpp" - This file creates a class "List<T>", which, since it works with the "Node<T>" class, is also created by the template. Therefore, both the purpose and the implementation of the members of this class are given in one file. More specifically, this file immediately defines the class.Here are the constructors-destructors of the class, the functions necessary to work with the elements of the list.
+
+file "main.cpp" - This file is used to check the project's operability, testing. First of all, a object is created, then the correctness of the class methods (as well as the constructor and destructor) is checked.
+
+file "Makefile" - This particular file is designed to cache source type files so that we don't enter the name of each such file every time. He also performs partial campilitation.
